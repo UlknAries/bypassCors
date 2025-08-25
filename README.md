@@ -1,12 +1,15 @@
 **How to install and run ?**
 
 *Download repository, open as python project, create venv for python 3.13, then install requirements:*
+
 ```pip install -r requirements.txt```
 
 *After this, just run main.py:*
+
 ```python main.py```
 
 **usage in JS:**
+
 ```http://localhost:8001//bypass_cors?url=https://www.cors.site```
 
 **example for JS:**
