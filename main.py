@@ -24,6 +24,13 @@ SAFE_REQ_HEADERS = {
     "authorization","user-agent",
 }
 
+
+
+
+
+
+
+
 def _validate_url(u: str):
     p = urlparse(u)
     if p.scheme not in ("http","https") or not p.netloc:
